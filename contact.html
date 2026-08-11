@@ -1,112 +1,54 @@
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Contact Me</title>
-</head>
+<form action="https://formsubmit.co/bittnerjanin6@gmail.com" method="POST">
 
-<body>
+    <label>Full Name:</label>
+    <input type="text" name="Full Name" required>
+    <br><br>
 
-    <h1>Contact Me</h1>
+    <label>Email Address:</label>
+    <input type="email" name="Email Address" required>
+    <br><br>
 
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About Me</a> |
-        <a href="hobbies.html">Hobbies</a> |
-        <a href="favorites.html">Favorites</a> |
-        <a href="goals.html">Goals</a> |
-        <a href="contact.html">Contact Me</a>
-    </nav>
+    <label>Gender:</label>
+    <input type="radio" name="Gender" value="Male">
+    Male
 
-    <hr>
+    <input type="radio" name="Gender" value="Female">
+    Female
+    <br><br>
 
-    <h2>Send Me a Message</h2>
+    <label>Interests:</label>
+    <br>
 
-    <p>
-        Please fill out the form below to send me
-        information, feedback, or inquiries.
-    </p>
+    <input type="checkbox" name="Interests" value="Technology">
+    Technology
 
-    <!-- FORM -->
-    <!-- Replace YOUR-FORM-ID with your Formspree endpoint -->
-    <form action="https://formspree.io/f/xqpzqqvv" method="POST">
+    <input type="checkbox" name="Interests" value="Gaming">
+    Gaming
 
-        <!-- 1. Full Name -->
-        <label>Full Name:</label>
-        <input type="text" name="Full Name" required>
+    <input type="checkbox" name="Interests" value="Music">
+    Music
 
-        <br><br>
+    <br><br>
 
-        <!-- 2. Email Address -->
-        <label>Email Address:</label>
-        <input type="email" name="Email Address" required>
+    <label>Purpose of Visit:</label>
 
-        <br><br>
+    <select name="Purpose of Visit">
+        <option>General Inquiry</option>
+        <option>Feedback</option>
+        <option>Collaboration</option>
+        <option>School Project</option>
+    </select>
 
-        <!-- 3. Gender -->
-        <label>Gender:</label>
+    <br><br>
 
-        <input type="radio" name="Gender" value="Male">
-        Male
+    <label>Message:</label>
+    <br>
 
-        <input type="radio" name="Gender" value="Female">
-        Female
+    <textarea name="Message" rows="5" cols="40" required></textarea>
 
-        <br><br>
+    <br><br>
 
-        <!-- 4. Interests -->
-        <label>Interests:</label>
-        <br>
+    <input type="submit" value="Send Message">
+    <input type="reset" value="Clear Form">
 
-        <input type="checkbox" name="Interests" value="Technology">
-        Technology
-
-        <input type="checkbox" name="Interests" value="Gaming">
-        Gaming
-
-        <input type="checkbox" name="Interests" value="Music">
-        Music
-
-        <br><br>
-
-        <!-- 5. Purpose of Visit -->
-        <label>Purpose of Visit:</label>
-
-        <select name="Purpose of Visit">
-            <option value="General Inquiry">General Inquiry</option>
-            <option value="Feedback">Feedback</option>
-            <option value="Collaboration">Collaboration</option>
-            <option value="School Project">School Project</option>
-        </select>
-
-        <br><br>
-
-        <!-- 6. Message -->
-        <label>Message:</label>
-        <br>
-
-        <textarea
-            name="Message"
-            rows="5"
-            cols="40"
-            required></textarea>
-
-        <br><br>
-
-        <!-- 7. Submit and Reset Buttons -->
-        <input type="submit" value="Send Message">
-
-        <input type="reset" value="Clear Form">
-
-    </form>
-
-    <hr>
-
-    <p>
-        Thank you for visiting my personal profile website!
-    </p>
-
-</body>
-</html>
-```
-
+</form>
