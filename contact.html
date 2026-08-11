@@ -9,7 +9,6 @@
 
     <h1>Contact Me</h1>
 
-    <!-- Navigation Menu -->
     <nav>
         <a href="index.html">Home</a> |
         <a href="about.html">About Me</a> |
@@ -21,36 +20,31 @@
 
     <hr>
 
-    <h2>Get in Touch</h2>
+    <h2>Send Me a Message</h2>
 
     <p>
-        Welcome to my Contact Me page!
-        Please fill out the form below if you would like to
-        send me a message, feedback, or inquiry.
+        Please fill out the form below to send me
+        information, feedback, or inquiries.
     </p>
 
-    <!-- Contact Form -->
-    <form action="https://formsubmit.co/bittnerjanin6@gmail.com" method="POST">
+    <!-- FORM -->
+    <!-- Replace YOUR-FORM-ID with your Formspree endpoint -->
+    <form action="https://formspree.io/f/xqpzqqvv" method="POST">
 
-        <!-- Makes the email easier to identify -->
-        <input type="hidden" name="_subject" value="New Contact Form Response">
-
-        <!-- Prevents FormSubmit from showing its default response page -->
-        <input type="hidden" name="_captcha" value="false">
-
-        <!-- Full Name -->
+        <!-- 1. Full Name -->
         <label>Full Name:</label>
         <input type="text" name="Full Name" required>
+
         <br><br>
 
-        <!-- Email Address -->
+        <!-- 2. Email Address -->
         <label>Email Address:</label>
         <input type="email" name="Email Address" required>
+
         <br><br>
 
-        <!-- Gender -->
+        <!-- 3. Gender -->
         <label>Gender:</label>
-        <br>
 
         <input type="radio" name="Gender" value="Male">
         Male
@@ -60,7 +54,7 @@
 
         <br><br>
 
-        <!-- Interests -->
+        <!-- 4. Interests -->
         <label>Interests:</label>
         <br>
 
@@ -75,7 +69,7 @@
 
         <br><br>
 
-        <!-- Purpose of Visit -->
+        <!-- 5. Purpose of Visit -->
         <label>Purpose of Visit:</label>
 
         <select name="Purpose of Visit">
@@ -87,7 +81,7 @@
 
         <br><br>
 
-        <!-- Message -->
+        <!-- 6. Message -->
         <label>Message:</label>
         <br>
 
@@ -95,12 +89,11 @@
             name="Message"
             rows="5"
             cols="40"
-            placeholder="Write your message here..."
             required></textarea>
 
         <br><br>
 
-        <!-- Submit and Reset Buttons -->
+        <!-- 7. Submit and Reset Buttons -->
         <input type="submit" value="Send Message">
 
         <input type="reset" value="Clear Form">
@@ -116,3 +109,4 @@
 </body>
 </html>
 ```
+
