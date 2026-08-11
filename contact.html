@@ -1,62 +1,118 @@
+```html
 <!DOCTYPE html>
 <html>
 <head>
     <title>Contact Me</title>
 </head>
+
 <body>
-<h1>Contact Me</h1>
-<nav>
-    <a href="index.html">Home</a> |
-    <a href="about.html">About Me</a> |
-    <a href="hobbies.html">Hobbies</a> |
-    <a href="favorites.html">Favorites</a> |
-    <a href="goals.html">Goals</a> |
-    <a href="contact.html">Contact Me</a>
-</nav>
-<hr>
-<h2>Get in Touch</h2>
-<p>
-    Please fill out the form below if you have any questions,
-    feedback, or inquiries.
-</p>
-<form>
-    <label for="fullname">Full Name:</label><br>
-    <input type="text" id="fullname" name="fullname" required>
-    <br><br>
-    <label for="email">Email Address:</label><br>
-    <input type="email" id="email" name="email" required>
-    <br><br>
-    <label>Gender:</label><br>
-    <input type="radio" id="male" name="gender" value="Male">
-    <label for="male">Male</label>
-    <input type="radio" id="female" name="gender" value="Female">
-    <label for="female">Female</label>
-    <br><br>
-    <label>Interests:</label><br>
-    <input type="checkbox" id="technology" name="interests" value="Technology">
-    <label for="technology">Technology</label>
-    <input type="checkbox" id="gaming" name="interests" value="Gaming">
-    <label for="gaming">Gaming</label>
-    <input type="checkbox" id="music" name="interests" value="Music">
-    <label for="music">Music</label>
-    <br><br>
-    <label for="purpose">Purpose of Visit:</label><br>
-    <select id="purpose" name="purpose">
-        <option value="General Inquiry">General Inquiry</option>
-        <option value="Feedback">Feedback</option>
-        <option value="Collaboration">Collaboration</option>
-        <option value="School Project">School Project</option>
-    </select>
-    <br><br>
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message" rows="5" cols="40"></textarea>
-    <br><br>
-    <input type="submit" value="Send Message">
-    <input type="reset" value="Clear Form">
-</form>
-<hr>
-<p>
-    Thank you for visiting my personal website!
-</p>
+
+    <h1>Contact Me</h1>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About Me</a> |
+        <a href="hobbies.html">Hobbies</a> |
+        <a href="favorites.html">Favorites</a> |
+        <a href="goals.html">Goals</a> |
+        <a href="contact.html">Contact Me</a>
+    </nav>
+
+    <hr>
+
+    <h2>Get in Touch</h2>
+
+    <p>
+        Welcome to my Contact Me page!
+        Please fill out the form below if you would like to
+        send me a message, feedback, or inquiry.
+    </p>
+
+    <!-- Contact Form -->
+    <form action="https://formsubmit.co/bittnerjanin6@gmail.com" method="POST">
+
+        <!-- Makes the email easier to identify -->
+        <input type="hidden" name="_subject" value="New Contact Form Response">
+
+        <!-- Prevents FormSubmit from showing its default response page -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <!-- Full Name -->
+        <label>Full Name:</label>
+        <input type="text" name="Full Name" required>
+        <br><br>
+
+        <!-- Email Address -->
+        <label>Email Address:</label>
+        <input type="email" name="Email Address" required>
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <br>
+
+        <input type="radio" name="Gender" value="Male">
+        Male
+
+        <input type="radio" name="Gender" value="Female">
+        Female
+
+        <br><br>
+
+        <!-- Interests -->
+        <label>Interests:</label>
+        <br>
+
+        <input type="checkbox" name="Interests" value="Technology">
+        Technology
+
+        <input type="checkbox" name="Interests" value="Gaming">
+        Gaming
+
+        <input type="checkbox" name="Interests" value="Music">
+        Music
+
+        <br><br>
+
+        <!-- Purpose of Visit -->
+        <label>Purpose of Visit:</label>
+
+        <select name="Purpose of Visit">
+            <option value="General Inquiry">General Inquiry</option>
+            <option value="Feedback">Feedback</option>
+            <option value="Collaboration">Collaboration</option>
+            <option value="School Project">School Project</option>
+        </select>
+
+        <br><br>
+
+        <!-- Message -->
+        <label>Message:</label>
+        <br>
+
+        <textarea
+            name="Message"
+            rows="5"
+            cols="40"
+            placeholder="Write your message here..."
+            required></textarea>
+
+        <br><br>
+
+        <!-- Submit and Reset Buttons -->
+        <input type="submit" value="Send Message">
+
+        <input type="reset" value="Clear Form">
+
+    </form>
+
+    <hr>
+
+    <p>
+        Thank you for visiting my personal profile website!
+    </p>
+
 </body>
 </html>
+```
