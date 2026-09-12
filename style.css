@@ -1,45 +1,131 @@
-```css
 body {
-    color: black;
-}
-
-h1 {
+    color: #d9d9d9;
+    background-color: #111111;
     text-align: center;
 }
 
-h2 {
-    color: navy;
-}
-
-.nav-link {
-    color: navy;
+h1 {
+    color: #f2f2f2;
+    background-color: #1f1f1f;
+    text-align: center;
     font-weight: bold;
 }
 
-.profile-info {
-    background-color: lightgray;
+h2 {
+    color: #cfcfcf;
+    background-color: #181818;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    color: #c8c8c8;
+    background-color: #151515;
+    text-align: center;
+    font-weight: normal;
+}
+
+nav {
+    color: #aaaaaa;
+    background-color: #1b1b1b;
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    color: #dcdcdc;
+    background-color: #222222;
+    text-align: center;
+    font-weight: bold;
 }
 
 .section-title {
-    color: navy;
+    color: #eeeeee;
+    background-color: #202020;
+    text-align: center;
     font-weight: bold;
 }
 
+.info-text {
+    color: #cfcfcf;
+    background-color: #171717;
+    text-align: center;
+    font-weight: normal;
+}
+
+.nav-link {
+    color: #bdbdbd;
+    background-color: #202020;
+    text-align: center;
+    font-weight: bold;
+}
+
+.media-item {
+    color: #d5d5d5;
+    background-color: #191919;
+    text-align: center;
+    font-weight: normal;
+}
+
 .btn {
+    color: #eeeeee;
+    background-color: #252525;
+    text-align: center;
     font-weight: bold;
 }
 
 .primary {
-    color: white;
-    background-color: navy;
+    color: #ffffff;
+    background-color: #333333;
+    text-align: center;
+    font-weight: bold;
 }
 
 #main-header {
-    background-color: lightgray;
+    color: #ffffff;
+    background-color: #242424;
     text-align: center;
+    font-weight: bold;
 }
 
 #contact-section {
-    background-color: lightgray;
+    color: #dddddd;
+    background-color: #191919;
+    text-align: center;
+    font-weight: normal;
 }
-```
+
+table {
+    color: #d0d0d0;
+    background-color: #181818;
+    text-align: center;
+    font-weight: normal;
+}
+
+th {
+    color: #ffffff;
+    background-color: #2a2a2a;
+    text-align: center;
+    font-weight: bold;
+}
+
+td {
+    color: #cccccc;
+    background-color: #1b1b1b;
+    text-align: center;
+    font-weight: normal;
+}
+
+label {
+    color: #dddddd;
+    background-color: #1a1a1a;
+    text-align: center;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    color: #222222;
+    background-color: #eeeeee;
+    text-align: left;
+    font-weight: normal;
+}
