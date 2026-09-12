@@ -1,0 +1,45 @@
+```css
+body {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: navy;
+}
+
+.nav-link {
+    color: navy;
+    font-weight: bold;
+}
+
+.profile-info {
+    background-color: lightgray;
+}
+
+.section-title {
+    color: navy;
+    font-weight: bold;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+.primary {
+    color: white;
+    background-color: navy;
+}
+
+#main-header {
+    background-color: lightgray;
+    text-align: center;
+}
+
+#contact-section {
+    background-color: lightgray;
+}
+```
