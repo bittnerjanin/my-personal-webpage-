@@ -2,119 +2,126 @@
 <html>
 <head>
     <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<header id="main-header">
     <h1>Contact Me</h1>
+</header>
 
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About Me</a> |
-        <a href="hobbies.html">Hobbies</a> |
-        <a href="favorites.html">Favorites</a> |
-        <a href="goals.html">Goals</a> |
-        <a href="contact.html">Contact Me</a>
-    </nav>
+<nav>
+    <a class="nav-link" href="index.html">Home</a> |
+    <a class="nav-link" href="about.html">About Me</a> |
+    <a class="nav-link" href="hobbies.html">Hobbies</a> |
+    <a class="nav-link" href="favorites.html">Favorites</a> |
+    <a class="nav-link" href="goals.html">Goals</a> |
+    <a class="nav-link" href="contact.html">Contact Me</a>
+</nav>
 
-    <hr>
+<hr>
 
-    <form action="https://formsubmit.co/bittnerjanin6@gmail.com" method="POST">
+<section id="contact-section">
 
-        <input type="hidden" name="_next" value="https://bittnerjanin.github.io/my-personal-webpage-/">
+<form action="https://formsubmit.co/bittnerjanin6@gmail.com" method="POST">
 
-        <label>Full Name:</label>
-        <input type="text" name="Full Name" required>
+    <input type="hidden" name="_next" value="https://bittnerjanin.github.io/my-personal-webpage-/">
 
-        <br><br>
+    <label>Full Name:</label>
+    <input type="text" name="Full Name" required>
 
-        <label>Email Address:</label>
-        <input type="email" name="Email Address" required>
+    <br><br>
 
-        <br><br>
+    <label>Email Address:</label>
+    <input type="email" name="Email Address" required>
 
-        <label>Gender:</label>
+    <br><br>
 
-        <input type="radio" name="Gender" value="Male">
-        Male
+    <label>Gender:</label>
 
-        <input type="radio" name="Gender" value="Female">
-        Female
+    <input type="radio" name="Gender" value="Male">
+    Male
 
-        <br><br>
+    <input type="radio" name="Gender" value="Female">
+    Female
 
-        <label>Interests:</label>
-        <br>
+    <br><br>
 
-        <input type="checkbox" name="Interests1" value="Technology">
-        Technology
+    <label>Interests:</label>
+    <br>
 
-        <input type="checkbox" name="Interests2" value="Gaming">
-        Gaming
+    <input type="checkbox" name="Interests1" value="Technology">
+    Technology
 
-        <input type="checkbox" name="Interests3" value="Music">
-        Music
+    <input type="checkbox" name="Interests2" value="Gaming">
+    Gaming
 
-        <input type="checkbox" name="Interests4" value="Anime">
-        Anime
+    <input type="checkbox" name="Interests3" value="Music">
+    Music
 
-        <br><br>
+    <input type="checkbox" name="Interests4" value="Anime">
+    Anime
 
-        <label>Favorite Coding Language:</label>
+    <br><br>
 
-        <select name="Favorite Coding Language">
-            <option>HTML</option>
-            <option>CSS</option>
-            <option>JavaScript</option>
-            <option>Python</option>
-            <option>Java</option>
-            <option>C++</option>
-            <option>C#</option>
-            <option>PHP</option>
-            <option>Other</option>
-        </select>
+    <label>Favorite Coding Language:</label>
 
-        <br><br>
+    <select name="Favorite Coding Language">
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JavaScript</option>
+        <option>Python</option>
+        <option>Java</option>
+        <option>C++</option>
+        <option>C#</option>
+        <option>PHP</option>
+        <option>Other</option>
+    </select>
 
-        <label>Choose a Color:</label>
-        <input type="color" name="Favorite Color" value="#000000">
+    <br><br>
 
-        <br><br>
+    <label>Choose a Color:</label>
+    <input type="color" name="Favorite Color" value="#000000">
 
-        <label>Rate My Website:</label>
+    <br><br>
 
-        <select name="Website Rating">
-            <option>⭐⭐⭐⭐⭐ Excellent</option>
-            <option>⭐⭐⭐⭐ Good</option>
-            <option>⭐⭐⭐ Average</option>
-            <option>⭐⭐ Needs Improvement</option>
-            <option>⭐ Poor</option>
-        </select>
+    <label>Rate My Website:</label>
 
-        <br><br>
+    <select name="Website Rating">
+        <option>⭐⭐⭐⭐⭐ Excellent</option>
+        <option>⭐⭐⭐⭐ Good</option>
+        <option>⭐⭐⭐ Average</option>
+        <option>⭐⭐ Needs Improvement</option>
+        <option>⭐ Poor</option>
+    </select>
 
-        <label>Purpose of Visit:</label>
+    <br><br>
 
-        <select name="Purpose of Visit">
-            <option>General Inquiry</option>
-            <option>Feedback</option>
-            <option>Collaboration</option>
-            <option>School Project</option>
-        </select>
+    <label>Purpose of Visit:</label>
 
-        <br><br>
+    <select name="Purpose of Visit">
+        <option>General Inquiry</option>
+        <option>Feedback</option>
+        <option>Collaboration</option>
+        <option>School Project</option>
+    </select>
 
-        <label>Message:</label>
-        <br>
+    <br><br>
 
-        <textarea name="Message" rows="5" cols="40" required></textarea>
+    <label>Message:</label>
+    <br>
 
-        <br><br>
+    <textarea name="Message" rows="5" cols="40" required></textarea>
 
-        <input type="submit" value="Send Message">
-        <input type="reset" value="Clear Form">
+    <br><br>
 
-    </form>
+    <input class="btn primary" type="submit" value="Send Message">
+    <input class="btn" type="reset" value="Clear Form">
+
+</form>
+
+</section>
 
 </body>
 </html>
