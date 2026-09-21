@@ -1,131 +1,71 @@
 body {
-    color: #d9d9d9;
-    background-color: #111111;
-    text-align: center;
+    background-color: #303030;
 }
 
 h1 {
-    color: #f2f2f2;
-    background-color: #1f1f1f;
-    text-align: center;
-    font-weight: bold;
+    background-color: #484848;
 }
 
 h2 {
-    color: #cfcfcf;
-    background-color: #181818;
-    text-align: center;
-    font-weight: bold;
+    background-color: #404040;
 }
 
 p {
-    color: #c8c8c8;
-    background-color: #151515;
-    text-align: center;
-    font-weight: normal;
+    background-color: #383838;
 }
 
 nav {
-    color: #aaaaaa;
-    background-color: #1b1b1b;
-    text-align: center;
-    font-weight: bold;
+    background-color: #454545;
 }
 
 a {
-    color: #dcdcdc;
-    background-color: #222222;
-    text-align: center;
-    font-weight: bold;
+    background-color: #505050;
 }
 
 .section-title {
-    color: #eeeeee;
-    background-color: #202020;
-    text-align: center;
-    font-weight: bold;
+    background-color: #454545;
 }
 
 .info-text {
-    color: #cfcfcf;
-    background-color: #171717;
-    text-align: center;
-    font-weight: normal;
+    background-color: #383838;
 }
 
 .nav-link {
-    color: #bdbdbd;
-    background-color: #202020;
-    text-align: center;
-    font-weight: bold;
+    background-color: #505050;
 }
 
 .media-item {
-    color: #d5d5d5;
-    background-color: #191919;
-    text-align: center;
-    font-weight: normal;
+    background-color: #3d3d3d;
 }
 
 .btn {
-    color: #eeeeee;
-    background-color: #252525;
-    text-align: center;
-    font-weight: bold;
+    background-color: #505050;
 }
 
 .primary {
-    color: #ffffff;
-    background-color: #333333;
-    text-align: center;
-    font-weight: bold;
+    background-color: #606060;
 }
 
 #main-header {
-    color: #ffffff;
-    background-color: #242424;
-    text-align: center;
-    font-weight: bold;
+    background-color: #484848;
 }
 
 #contact-section {
-    color: #dddddd;
-    background-color: #191919;
-    text-align: center;
-    font-weight: normal;
+    background-color: #3d3d3d;
 }
 
 table {
-    color: #d0d0d0;
-    background-color: #181818;
-    text-align: center;
-    font-weight: normal;
+    background-color: #3a3a3a;
 }
 
 th {
-    color: #ffffff;
-    background-color: #2a2a2a;
-    text-align: center;
-    font-weight: bold;
+    background-color: #555555;
 }
 
 td {
-    color: #cccccc;
-    background-color: #1b1b1b;
-    text-align: center;
-    font-weight: normal;
+    background-color: #444444;
 }
 
 label {
-    color: #dddddd;
-    background-color: #1a1a1a;
-    text-align: center;
-    font-weight: bold;
-}
-
-input, select, textarea {
-    color: #222222;
-    background-color: #eeeeee;
-    text-align: left;
-    font-weight: normal;
+    background-color: #404040;
 }
