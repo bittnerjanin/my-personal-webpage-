@@ -1,35 +1,57 @@
+
+
 body {
     color: #d9d9d9;
     background-color: #111111;
     text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
+
+
+
 
 h1 {
     color: #ffffff;
-    background-color: #242424;
+    background: linear-gradient(to right, #242424, #444444);
     text-align: center;
+    font-family: Georgia, serif;
+    font-size: 36px;
     font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 h2 {
     color: #eeeeee;
     background-color: #1d1d1d;
     text-align: center;
+    font-family: Georgia, serif;
+    font-size: 28px;
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 p {
     color: #d0d0d0;
     background-color: #151515;
     text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
     font-weight: normal;
+    line-height: 1.6;
 }
+
+
+
 
 nav {
     color: #ffffff;
     background-color: #1b1b1b;
     text-align: center;
+    font-family: Arial, sans-serif;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 a {
@@ -37,30 +59,41 @@ a {
     background-color: #222222;
     text-align: center;
     font-weight: bold;
+    text-decoration: none;
 }
 
 
-/* CLASS SELECTORS */
 
 .section-title {
     color: #ffffff;
     background-color: #202020;
     text-align: center;
+    font-family: Georgia, serif;
+    font-size: 28px;
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .info-text {
     color: #d0d0d0;
     background-color: #151515;
     text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
     font-weight: normal;
+    line-height: 1.6;
 }
 
 .nav-link {
     color: #dddddd;
     background-color: #202020;
     text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
     font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
 }
 
 .media-item {
@@ -68,6 +101,7 @@ a {
     background-color: #191919;
     text-align: center;
     font-weight: normal;
+    opacity: 0.95;
 }
 
 .btn {
@@ -82,16 +116,22 @@ a {
     background-color: #333333;
     text-align: center;
     font-weight: bold;
+    opacity: 0.95;
 }
 
 
-/* ID SELECTORS */
 
 #main-header {
     color: #ffffff;
-    background-color: #242424;
+    background: linear-gradient(to right, #242424, #555555);
     text-align: center;
+    font-family: Georgia, serif;
+    font-size: 36px;
     font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.95;
 }
 
 #contact-section {
@@ -99,10 +139,9 @@ a {
     background-color: #191919;
     text-align: center;
     font-weight: normal;
+    line-height: 1.6;
 }
 
-
-/* TABLE ELEMENT SELECTORS */
 
 table {
     color: #d0d0d0;
@@ -116,6 +155,8 @@ th {
     background-color: #2a2a2a;
     text-align: center;
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 td {
@@ -126,7 +167,7 @@ td {
 }
 
 
-/* FORM ELEMENT SELECTORS */
+
 
 label {
     color: #dddddd;
@@ -142,4 +183,16 @@ textarea {
     background-color: #eeeeee;
     text-align: left;
     font-weight: normal;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+b {
+    font-weight: bold;
+}
+
+hr {
+    opacity: 0.5;
 }
