@@ -116,7 +116,7 @@ a {
 
 
 #main-header {
-    color: #ffffff;
+    color: #111111;
     background: linear-gradient(to right, #242424, #FFFFFF);
     text-align: center;
     font-family: Georgia, serif;
@@ -125,7 +125,8 @@ a {
     font-style: normal;
     letter-spacing: 2px;
     text-transform: uppercase;
-    opacity: 0.95;
+    opacity: 1;
+    padding: 20px;
 }
 
 #contact-section {
