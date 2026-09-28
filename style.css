@@ -6,15 +6,33 @@ body {
     line-height: 1.6;
 }
 
+
+
+
 h1 {
-    color: #ffffff;
-    background: linear-gradient(to right, #242424, #FFFFFF);
+    color: #111111;
+    background: linear-gradient(to right, #242424, #ffffff);
     text-align: center;
     font-family: Georgia, serif;
     font-size: 36px;
     font-weight: bold;
+    font-style: normal;
     letter-spacing: 2px;
     text-transform: uppercase;
+
+    /* BOX MODEL */
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border: 2px solid #444444;
+    margin: 20px;
+
+    /* POSITION + Z-INDEX */
+    position: relative;
+    top: 0;
+    z-index: 2;
+
+    opacity: 1;
 }
 
 h2 {
@@ -24,8 +42,23 @@ h2 {
     font-family: Georgia, serif;
     font-size: 28px;
     font-weight: bold;
+    font-style: normal;
+    letter-spacing: 1px;
     text-transform: capitalize;
+
+    /* BOX MODEL */
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border: 2px solid #333333;
+    margin: 20px;
+
+    /* CLEAR */
+    clear: both;
 }
+
+
+
 
 p {
     color: #d0d0d0;
@@ -34,17 +67,62 @@ p {
     font-family: Arial, sans-serif;
     font-size: 18px;
     font-weight: normal;
+    font-style: normal;
     line-height: 1.6;
+
+    /* BOX MODEL */
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border: 1px solid #333333;
+    margin: 15px;
 }
+
+
+
 
 nav {
     color: #ffffff;
     background-color: #1b1b1b;
     text-align: center;
     font-family: Arial, sans-serif;
+    font-size: 16px;
     font-weight: bold;
     letter-spacing: 1px;
+
+    /* BOX MODEL */
+    width: auto;
+    height: auto;
+    padding: 12px;
+    border: 2px solid #333333;
+    margin: 15px;
+
+    /* POSITION + Z-INDEX */
+    position: relative;
+    z-index: 1;
 }
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 10px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin: 15px;
+    padding: 10px;
+}
+
+li {
+    margin: 5px;
+}
+
+
+
 
 a {
     color: #dddddd;
@@ -52,6 +130,32 @@ a {
     text-align: center;
     font-weight: bold;
     text-decoration: none;
+
+    /* BOX MODEL */
+    padding: 5px;
+    border: 1px solid #444444;
+    margin: 2px;
+}
+
+
+/* LINK STATES */
+
+a:link {
+    color: #dddddd;
+}
+
+a:visited {
+    color: #aaaaaa;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: #444444;
+}
+
+a:active {
+    color: #111111;
+    background-color: #ffffff;
 }
 
 
@@ -64,8 +168,16 @@ a {
     font-family: Georgia, serif;
     font-size: 28px;
     font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+
+    /* BOX MODEL */
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border: 2px solid #444444;
+    margin: 20px;
+
+    /* CLEAR */
+    clear: both;
 }
 
 .info-text {
@@ -75,7 +187,13 @@ a {
     font-family: Arial, sans-serif;
     font-size: 18px;
     font-weight: normal;
-    line-height: 1.6;
+
+    /* BOX MODEL */
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border: 1px solid #333333;
+    margin: 15px;
 }
 
 .nav-link {
@@ -83,10 +201,13 @@ a {
     background-color: #202020;
     text-align: center;
     font-family: Arial, sans-serif;
-    font-size: 16px;
     font-weight: bold;
     text-decoration: none;
-    letter-spacing: 1px;
+
+    /* BOX MODEL */
+    padding: 5px;
+    border: 1px solid #444444;
+    margin: 2px;
 }
 
 .media-item {
@@ -94,22 +215,57 @@ a {
     background-color: #191919;
     text-align: center;
     font-weight: normal;
+
+    /* BOX MODEL */
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border: 2px solid #333333;
+    margin: 15px;
+
     opacity: 0.95;
 }
 
-.btn {
-    color: #eeeeee;
-    background-color: #252525;
-    text-align: center;
-    font-weight: bold;
-}
+
 
 .primary {
     color: #ffffff;
     background-color: #333333;
     text-align: center;
     font-weight: bold;
+
+    /* BOX MODEL */
+    width: 250px;
+    height: auto;
+    padding: 5px;
+    border: 2px solid #555555;
+    margin: 15px;
+
+    /* FLOAT */
+    float: left;
+
+    /* POSITION + Z-INDEX */
+    position: relative;
+    z-index: 1;
+
     opacity: 0.95;
+}
+
+
+
+
+.btn {
+    color: #eeeeee;
+    background-color: #252525;
+    text-align: center;
+    font-weight: bold;
+
+    /* BOX MODEL */
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: 2px solid #444444;
+    margin: 10px;
 }
 
 
@@ -117,7 +273,7 @@ a {
 
 #main-header {
     color: #111111;
-    background: linear-gradient(to right, #242424, #FFFFFF);
+    background: linear-gradient(to right, #242424, #ffffff);
     text-align: center;
     font-family: Georgia, serif;
     font-size: 36px;
@@ -125,16 +281,36 @@ a {
     font-style: normal;
     letter-spacing: 2px;
     text-transform: uppercase;
-    opacity: 1;
+
+    /* BOX MODEL */
+    width: auto;
+    height: auto;
     padding: 20px;
+    border: 2px solid #444444;
+    margin: 20px;
+
+    /* POSITION + Z-INDEX */
+    position: relative;
+    top: 0;
+    z-index: 2;
+
+    opacity: 1;
 }
 
 #contact-section {
     color: #dddddd;
     background-color: #191919;
     text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
     font-weight: normal;
-    line-height: 1.6;
+
+    /* BOX MODEL */
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border: 1px solid #333333;
+    margin: 15px;
 }
 
 
@@ -145,6 +321,13 @@ table {
     background-color: #181818;
     text-align: center;
     font-weight: normal;
+
+    /* BOX MODEL */
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: 2px solid #333333;
+    margin: 20px;
 }
 
 th {
@@ -152,8 +335,10 @@ th {
     background-color: #2a2a2a;
     text-align: center;
     font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+
+    padding: 10px;
+    border: 1px solid #444444;
+    margin: 5px;
 }
 
 td {
@@ -161,6 +346,10 @@ td {
     background-color: #1b1b1b;
     text-align: center;
     font-weight: normal;
+
+    padding: 10px;
+    border: 1px solid #333333;
+    margin: 5px;
 }
 
 
@@ -171,6 +360,10 @@ label {
     background-color: #1a1a1a;
     text-align: center;
     font-weight: bold;
+
+    padding: 5px;
+    border: 1px solid #333333;
+    margin: 5px;
 }
 
 input,
@@ -180,15 +373,19 @@ textarea {
     background-color: #eeeeee;
     text-align: left;
     font-weight: normal;
-    font-family: Arial, sans-serif;
+
+    /* BOX MODEL */
+    width: auto;
+    height: auto;
+    padding: 8px;
+    border: 2px solid #555555;
+    margin: 8px;
 }
 
 
-b {
-    font-weight: bold;
-}
 
 hr {
+    clear: both;
     opacity: 0.5;
 }
 
