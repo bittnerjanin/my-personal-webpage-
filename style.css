@@ -369,11 +369,13 @@ a:visited {
 
 .flower-wreath {
    .flower-wreath {
+   .flower-wreath {
     position: absolute;
-    width: 320px;
-    height: 320px;
+    width: 285px;
+    height: 285px;
     object-fit: contain;
-    top: -35px;
-    left: -35px;
-    z-index: 4;
+    top: -17px;
+    left: -17px;
+    z-index: 2;
+}
 }
