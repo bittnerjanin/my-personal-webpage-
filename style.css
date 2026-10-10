@@ -1,10 +1,16 @@
+
 body {
     color: #d9d9d9;
     background-color: #111111;
     text-align: center;
     font-family: Arial, sans-serif;
     line-height: 1.6;
+
+    
+    margin: 0;
+    padding: 20px;
 }
+
 
 h1 {
     color: #ffffff;
@@ -15,6 +21,14 @@ h1 {
     font-weight: bold;
     letter-spacing: 2px;
     text-transform: uppercase;
+
+  
+    padding: 20px;
+    margin: 10px auto;
+    border: 2px solid #444444;
+
+    position: relative;
+    z-index: 2;
 }
 
 h2 {
@@ -25,6 +39,11 @@ h2 {
     font-size: 28px;
     font-weight: bold;
     text-transform: capitalize;
+
+  
+    padding: 12px;
+    margin: 25px auto 10px;
+    border: 1px solid #444444;
 }
 
 p {
@@ -35,7 +54,13 @@ p {
     font-size: 18px;
     font-weight: normal;
     line-height: 1.6;
+
+    
+    padding: 15px;
+    margin: 15px auto;
+    border: 1px solid #333333;
 }
+
 
 nav {
     color: #ffffff;
@@ -44,7 +69,28 @@ nav {
     font-family: Arial, sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
+
+    
+    padding: 12px;
+    margin: 10px auto;
+    border: 1px solid #444444;
+
+    
+    position: relative;
+    z-index: 3;
 }
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+}
+
 
 a {
     color: #dddddd;
@@ -55,6 +101,23 @@ a {
 }
 
 
+a:link {
+    color: #dddddd;
+}
+
+a:visited {
+    color: #aaaaaa;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: #444444;
+}
+
+a:active {
+    color: #ffffff;
+    background-color: #666666;
+}
 
 
 .section-title {
@@ -66,7 +129,13 @@ a {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
+
+   
+    padding: 15px;
+    margin: 25px auto 10px;
+    border: 2px solid #444444;
 }
+
 
 .info-text {
     color: #d0d0d0;
@@ -76,7 +145,13 @@ a {
     font-size: 18px;
     font-weight: normal;
     line-height: 1.6;
+
+   
+    padding: 15px;
+    margin: 15px auto;
+    border: 1px solid #333333;
 }
+
 
 .nav-link {
     color: #dddddd;
@@ -87,7 +162,13 @@ a {
     font-weight: bold;
     text-decoration: none;
     letter-spacing: 1px;
+
+   
+    padding: 8px 12px;
+    margin: 3px;
+    border: 1px solid #444444;
 }
+
 
 .media-item {
     color: #d5d5d5;
@@ -95,14 +176,20 @@ a {
     text-align: center;
     font-weight: normal;
     opacity: 0.95;
+
+   
+    padding: 8px;
+    margin: 15px auto;
+    border: 2px solid #444444;
+
+   
+    float: left;
+
+    
+    position: relative;
+    z-index: 1;
 }
 
-.btn {
-    color: #eeeeee;
-    background-color: #252525;
-    text-align: center;
-    font-weight: bold;
-}
 
 .primary {
     color: #ffffff;
@@ -110,9 +197,20 @@ a {
     text-align: center;
     font-weight: bold;
     opacity: 0.95;
+
+  
+    width: 250px;
+    padding: 8px;
+    margin: 15px 25px 15px 0;
+    border: 3px solid #555555;
+
+   
+    float: left;
+
+    
+    position: relative;
+    z-index: 2;
 }
-
-
 
 
 #main-header {
@@ -126,7 +224,18 @@ a {
     letter-spacing: 2px;
     text-transform: uppercase;
     opacity: 0.95;
+
+
+    width: auto;
+    padding: 20px;
+    margin: 10px auto;
+    border: 2px solid #444444;
+
+   
+    position: relative;
+    z-index: 5;
 }
+
 
 #contact-section {
     color: #dddddd;
@@ -134,9 +243,12 @@ a {
     text-align: center;
     font-weight: normal;
     line-height: 1.6;
+
+   
+    padding: 15px;
+    margin: 15px auto;
+    border: 1px solid #333333;
 }
-
-
 
 
 table {
@@ -144,6 +256,12 @@ table {
     background-color: #181818;
     text-align: center;
     font-weight: normal;
+
+ 
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #444444;
 }
 
 th {
@@ -153,6 +271,9 @@ th {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
+
+    padding: 10px;
+    border: 1px solid #555555;
 }
 
 td {
@@ -160,9 +281,10 @@ td {
     background-color: #1b1b1b;
     text-align: center;
     font-weight: normal;
+
+    padding: 10px;
+    border: 1px solid #444444;
 }
-
-
 
 
 label {
@@ -170,6 +292,9 @@ label {
     background-color: #1a1a1a;
     text-align: center;
     font-weight: bold;
+
+    padding: 5px;
+    margin: 5px;
 }
 
 input,
@@ -180,15 +305,29 @@ textarea {
     text-align: left;
     font-weight: normal;
     font-family: Arial, sans-serif;
+
+   
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #555555;
 }
-
-
 
 
 b {
     font-weight: bold;
 }
 
+
 hr {
     opacity: 0.5;
+
+    
+    margin: 20px auto;
+}
+
+
+hr,
+h2,
+#contact-section {
+    clear: both;
 }
