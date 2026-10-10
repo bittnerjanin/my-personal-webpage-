@@ -297,16 +297,19 @@ h2,
     margin: 25px auto;
 }
 
+
 .profile-wreath .primary {
     position: absolute;
     width: 180px;
     height: 180px;
     object-fit: cover;
+    border-radius: 50%;
     top: 60px;
     left: 60px;
     z-index: 1;
     float: none;
 }
+
 
 .profile-wreath .wreath-overlay {
     position: absolute;
