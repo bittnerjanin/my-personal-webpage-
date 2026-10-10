@@ -1,12 +1,9 @@
-
 body {
     color: #d9d9d9;
     background-color: #111111;
     text-align: center;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-
-    
     margin: 0;
     padding: 20px;
 }
@@ -21,15 +18,18 @@ h1 {
     font-weight: bold;
     letter-spacing: 2px;
     text-transform: uppercase;
+    opacity: 0.95;
 
-  
+    width: auto;
+    height: auto;
     padding: 20px;
-    margin: 10px auto;
+    margin: 10px auto 15px;
     border: 2px solid #444444;
 
     position: relative;
     z-index: 2;
 }
+
 
 h2 {
     color: #eeeeee;
@@ -40,11 +40,12 @@ h2 {
     font-weight: bold;
     text-transform: capitalize;
 
-  
+    width: 85%;
     padding: 12px;
     margin: 25px auto 10px;
     border: 1px solid #444444;
 }
+
 
 p {
     color: #d0d0d0;
@@ -55,7 +56,6 @@ p {
     font-weight: normal;
     line-height: 1.6;
 
-    
     padding: 15px;
     margin: 15px auto;
     border: 1px solid #333333;
@@ -70,12 +70,10 @@ nav {
     font-weight: bold;
     letter-spacing: 1px;
 
-    
     padding: 12px;
     margin: 10px auto;
     border: 1px solid #444444;
 
-    
     position: relative;
     z-index: 3;
 }
@@ -88,7 +86,8 @@ nav ul {
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
+    margin: 5px;
 }
 
 
@@ -120,6 +119,23 @@ a:active {
 }
 
 
+.nav-link {
+    color: #dddddd;
+    background-color: #202020;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 3px;
+    border: 1px solid #444444;
+}
+
+
 .section-title {
     color: #ffffff;
     background-color: #202020;
@@ -130,7 +146,7 @@ a:active {
     text-transform: uppercase;
     letter-spacing: 1px;
 
-   
+    width: 85%;
     padding: 15px;
     margin: 25px auto 10px;
     border: 2px solid #444444;
@@ -146,48 +162,9 @@ a:active {
     font-weight: normal;
     line-height: 1.6;
 
-   
     padding: 15px;
     margin: 15px auto;
     border: 1px solid #333333;
-}
-
-
-.nav-link {
-    color: #dddddd;
-    background-color: #202020;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-    letter-spacing: 1px;
-
-   
-    padding: 8px 12px;
-    margin: 3px;
-    border: 1px solid #444444;
-}
-
-
-.media-item {
-    color: #d5d5d5;
-    background-color: #191919;
-    text-align: center;
-    font-weight: normal;
-    opacity: 0.95;
-
-   
-    padding: 8px;
-    margin: 15px auto;
-    border: 2px solid #444444;
-
-   
-    float: left;
-
-    
-    position: relative;
-    z-index: 1;
 }
 
 
@@ -198,56 +175,35 @@ a:active {
     font-weight: bold;
     opacity: 0.95;
 
-  
     width: 250px;
+    height: auto;
     padding: 8px;
     margin: 15px 25px 15px 0;
     border: 3px solid #555555;
 
-   
     float: left;
-
-    
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 
-#main-header {
-    color: #ffffff;
-    background: linear-gradient(to right, #242424, #FFFFFF);
-    text-align: center;
-    font-family: Georgia, serif;
-    font-size: 36px;
-    font-weight: bold;
-    font-style: normal;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    opacity: 0.95;
-
-
-    width: auto;
-    padding: 20px;
-    margin: 10px auto;
-    border: 2px solid #444444;
-
-   
-    position: relative;
-    z-index: 5;
-}
-
-
-#contact-section {
-    color: #dddddd;
+.media-item {
+    color: #d5d5d5;
     background-color: #191919;
     text-align: center;
     font-weight: normal;
-    line-height: 1.6;
+    opacity: 0.95;
 
-   
-    padding: 15px;
+    display: block;
+    width: 90%;
+    max-width: 600px;
+    height: 350px;
+    padding: 8px;
     margin: 15px auto;
-    border: 1px solid #333333;
+    border: 2px solid #444444;
+
+    position: relative;
+    z-index: 1;
 }
 
 
@@ -257,7 +213,6 @@ table {
     text-align: center;
     font-weight: normal;
 
- 
     width: 90%;
     margin: 20px auto;
     padding: 10px;
@@ -293,9 +248,11 @@ label {
     text-align: center;
     font-weight: bold;
 
+    display: inline-block;
     padding: 5px;
     margin: 5px;
 }
+
 
 input,
 select,
@@ -306,7 +263,6 @@ textarea {
     font-weight: normal;
     font-family: Arial, sans-serif;
 
-   
     padding: 8px;
     margin: 5px;
     border: 1px solid #555555;
@@ -320,9 +276,20 @@ b {
 
 hr {
     opacity: 0.5;
-
-    
     margin: 20px auto;
+}
+
+
+#contact-section {
+    color: #dddddd;
+    background-color: #191919;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.6;
+
+    padding: 15px;
+    margin: 15px auto;
+    border: 1px solid #333333;
 }
 
 
