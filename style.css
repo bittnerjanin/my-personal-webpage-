@@ -298,3 +298,24 @@ h2,
 #contact-section {
     clear: both;
 }
+.profile-wreath {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-wreath .primary {
+    display: block;
+    float: none;
+    margin: 15px auto;
+}
+
+.wreath-overlay {
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    pointer-events: none;
+}
