@@ -300,19 +300,24 @@ h2,
 }
 .profile-wreath {
     position: relative;
-    display: inline-block;
+    float: left;
+    width: 250px;
+    margin: 15px 25px 15px 0;
 }
 
 .profile-wreath .primary {
     display: block;
     float: none;
-    margin: 15px auto;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .wreath-overlay {
     position: absolute;
-    width: 120%;
-    height: 120%;
+    width: 140%;
+    height: 140%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
