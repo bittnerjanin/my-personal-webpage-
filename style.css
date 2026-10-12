@@ -423,7 +423,7 @@ h2,
     outline-offset: 3px;
 }
 
-
+.nav-link:active {
     color: #ffffff;
     background-color: #666666;
 }
