@@ -1,15 +1,17 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
+
+    <meta name="description" content="Contact Janin Bittner through her personal website. Send inquiries, feedback, or collaboration messages.">
+
+    <title>Contact Me - Janin Bittner</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-<h1 id="main-header">Contact Me</h1>
 
 <nav>
     <a class="nav-link" href="index.html">Home</a> |
@@ -20,52 +22,56 @@
     <a class="nav-link" href="contact.html">Contact Me</a>
 </nav>
 
+<main>
+
+<h1 id="main-header">Contact Me</h1>
+
 <hr>
 
 <form id="contact-section" action="https://formsubmit.co/bittnerjanin6@gmail.com" method="POST">
 
     <input type="hidden" name="_next" value="https://bittnerjanin.github.io/my-personal-webpage-/">
 
-    <label>Full Name:</label>
-    <input type="text" name="Full Name" required>
+    <label for="full-name">Full Name:</label>
+    <input type="text" id="full-name" name="Full Name" required>
 
     <br><br>
 
-    <label>Email Address:</label>
-    <input type="email" name="Email Address" required>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="Email Address" required>
 
     <br><br>
 
     <label>Gender:</label>
 
-    <input type="radio" name="Gender" value="Male">
-    Male
+    <input type="radio" id="male" name="Gender" value="Male">
+    <label for="male">Male</label>
 
-    <input type="radio" name="Gender" value="Female">
-    Female
+    <input type="radio" id="female" name="Gender" value="Female">
+    <label for="female">Female</label>
 
     <br><br>
 
     <label>Interests:</label>
     <br>
 
-    <input type="checkbox" name="Interests1" value="Technology">
-    Technology
+    <input type="checkbox" id="technology" name="Interests1" value="Technology">
+    <label for="technology">Technology</label>
 
-    <input type="checkbox" name="Interests2" value="Gaming">
-    Gaming
+    <input type="checkbox" id="gaming" name="Interests2" value="Gaming">
+    <label for="gaming">Gaming</label>
 
-    <input type="checkbox" name="Interests3" value="Music">
-    Music
+    <input type="checkbox" id="music" name="Interests3" value="Music">
+    <label for="music">Music</label>
 
-    <input type="checkbox" name="Interests4" value="Anime">
-    Anime
+    <input type="checkbox" id="anime" name="Interests4" value="Anime">
+    <label for="anime">Anime</label>
 
     <br><br>
 
-    <label>Favorite Coding Language:</label>
+    <label for="coding-language">Favorite Coding Language:</label>
 
-    <select name="Favorite Coding Language">
+    <select id="coding-language" name="Favorite Coding Language">
         <option>HTML</option>
         <option>CSS</option>
         <option>JavaScript</option>
@@ -79,14 +85,14 @@
 
     <br><br>
 
-    <label>Choose a Color:</label>
-    <input type="color" name="Favorite Color" value="#000000">
+    <label for="favorite-color">Choose a Color:</label>
+    <input type="color" id="favorite-color" name="Favorite Color" value="#000000">
 
     <br><br>
 
-    <label>Rate My Website:</label>
+    <label for="website-rating">Rate My Website:</label>
 
-    <select name="Website Rating">
+    <select id="website-rating" name="Website Rating">
         <option>⭐⭐⭐⭐⭐ Excellent</option>
         <option>⭐⭐⭐⭐ Good</option>
         <option>⭐⭐⭐ Average</option>
@@ -96,9 +102,9 @@
 
     <br><br>
 
-    <label>Purpose of Visit:</label>
+    <label for="visit-purpose">Purpose of Visit:</label>
 
-    <select name="Purpose of Visit">
+    <select id="visit-purpose" name="Purpose of Visit">
         <option>General Inquiry</option>
         <option>Feedback</option>
         <option>Collaboration</option>
@@ -107,10 +113,10 @@
 
     <br><br>
 
-    <label>Message:</label>
+    <label for="message">Message:</label>
     <br>
 
-    <textarea name="Message" rows="5" cols="40" required></textarea>
+    <textarea id="message" name="Message" rows="5" cols="40" required></textarea>
 
     <br><br>
 
@@ -118,6 +124,8 @@
     <input class="btn" type="reset" value="Clear Form">
 
 </form>
+
+</main>
 
 </body>
 </html>
